@@ -1,0 +1,118 @@
+import React from "react";
+
+
+export const AllData = [
+    {
+        id: "1.",
+        date: "26/07/2023",
+        time: "13:54:29",
+        orderId: "OD101",
+        machine: " Aahaar stall 15",
+        custormer: "Lovekiran Kaur",
+        contact: "9999999999",
+        amount: "199",
+        status: "SUCCESS",
+    },
+    {
+        id: "2.",
+        date: "26/07/2023",
+        time: "13:54:29",
+        orderId: "OD102",
+        machine: "Aahaar stall 88",
+        custormer: "Lovekiran Kaur",
+        contact: "9999999999",
+        amount: "299",
+        status: "FAILURE",
+    },
+    {
+        id: "3.",
+        date: "26/07/2023",
+        time: "13:54:29",
+        orderId: "OD103",
+        machine: "Aahaar stall 89",
+        custormer: "Lovekiran Kaur",
+        contact: "9999999999",
+        amount: "399",
+        status: "SENT",
+    },
+    {
+        id: "4.",
+        date: "26/07/2023",
+        time: "13:54:29",
+        orderId: "OD104",
+        machine: "Aahaar stall 87",
+        custormer: "Lovekiran Kaur",
+        contact: "9999999999",
+        amount: "499",
+        status: "REFUND INITIALED",
+    },
+    {
+        id: "5.",
+        date: "26/07/2023",
+        time: "13:54:29",
+        orderId: "OD105",
+        machine: "Aahaar stall 51",
+        custormer: "Lovekiran Kaur",
+        contact: "9999999999",
+        amount: "599",
+        status: "REFUND COMPLETED",
+    },
+    {
+        id: "6.",
+        date: "26/07/2023",
+        time: "13:54:29",
+        orderId: "OD106",
+        machine: "Aahaar stall 99",
+        custormer: "Lovekiran Kaur",
+        contact: "9999999999",
+        amount: "699",
+        status: "SUCCESS",
+    },
+    {
+        id: "7.",
+        date: "26/07/2023",
+        time: "13:54:29",
+        orderId: "OD107",
+        machine: "Aahaar stall 98",
+        custormer: "Lovekiran Kaur",
+        contact: "9999999999",
+        amount: "899",
+        status: "FAILURE",
+    },
+    {
+        id: "8.",
+        date: "26/07/2023",
+        time: "13:54:29",
+        orderId: "OD108",
+        machine: "Aahaar stall 78",
+        custormer: "Lovekiran Kaur",
+        contact: "9999999999",
+        amount: "999",
+        status: "PENDING",
+    },
+    {
+        id: "9.",
+        date: "26/07/2023",
+        time: "13:54:29",
+        orderId: "OD109",
+        machine: "Aahaar stall 13",
+        custormer: "Lovekiran Kaur",
+        contact: "9999999999",
+        amount: "200",
+        status: "SUCCESS",
+    },
+
+] as const;
+
+
+export const TotalData =[
+    {
+        Machines: 6,
+        Orders: 28,
+        Customers: 28,
+        Drinks:27,
+        TotalAmount: 123679,
+        RefundIni: 4,
+    }
+
+] as const;
