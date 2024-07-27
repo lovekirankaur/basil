@@ -1,5 +1,6 @@
 # Basil assignment
 
+Tech stack - React.js, Nextjs(App router), Typescript, Tailwind.
 
 ### Clone the Repository
 
